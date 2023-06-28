@@ -27,6 +27,10 @@ git log
 ```bash
 git remote add origin git@github.com:YuriZuzia/Git_testing.git #ссылка на этот репозиторий
 ```
+да, ssh ключики же у наc сгенерёны и паблик ключ добавлен в гит?
+```bash
+$ ssh-keygen -t rsa -b 4096 -C "электронная почта, к которой привязан ваш аккаунт на GitHub"
+```
 и после этого можим заливать свой репо в Git:
 ```bash
 git push origin master #текущая ветка - master
