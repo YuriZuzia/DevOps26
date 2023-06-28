@@ -22,8 +22,8 @@ git add .
 git commit -m "комментарий коммита"
 git log
 ```
-да! правим .gitignore,чтобы не хранить tmp, bak, секреты
-Также, пропишем удалённй репозиторий:
+да! правим .gitignore,чтобы не хранить tmp, bak, секреты.  
+Также, пропишем удалённый репозиторий:
 ```bash
 git remote add origin git@github.com:YuriZuzia/Git_testing.git #ссылка на этот репозиторий
 ```
@@ -34,7 +34,7 @@ $ ssh-keygen -t rsa -b 4096 -C "электронная почта, к котор
 и после этого можим заливать свой репо в Git:
 ```bash
 git push origin master #текущая ветка - master
-git push -u  origin master #можно привязать ветку к одноименной удалённой - ключ -u
+git push -u origin master #можно привязать ветку к одноименной удалённой - ключ -u
 # после "связывания" просто:
 git push
 ```
